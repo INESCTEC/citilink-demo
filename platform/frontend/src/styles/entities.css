@@ -1,0 +1,29 @@
+/* Base styling for all entities */
+.entity {
+    @apply px-1 py-0 rounded-sm font-medium;
+  }
+  
+  /* Person entities */
+  .entity-per {
+    @apply bg-rose-100 border-b-2 border-rose-300 text-rose-800;
+  }
+  
+  /* Location entities */
+  .entity-loc {
+    @apply bg-blue-100 border-b-2 border-blue-300 text-blue-800;
+  }
+  
+  /* Organization entities */
+  .entity-org {
+    @apply bg-emerald-100 border-b-2 border-emerald-300 text-emerald-800;
+  }
+  
+  /* Miscellaneous entities */
+  .entity-misc {
+    @apply bg-gray-100 border-b-2 border-gray-300 text-gray-800;
+  }
+  
+  /* Date/time entities */
+  .entity-time, .entity-date {
+    @apply bg-amber-100 border-b-2 border-amber-300 text-amber-800;
+  }

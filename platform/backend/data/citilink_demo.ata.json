@@ -1,0 +1,600 @@
+[{
+  "_id": {
+    "$oid": "68beec532d78952485ba0af4"
+  },
+  "title": "ATA DA REUNIÃO DE 30/09/2024 CÂMARA MUNICIPAL DO FUNDÃO",
+  "content": "",
+  "location": "“Salão Nobre” do Edifício dos Paços do Concelho",
+  "date": {
+    "$date": "2024-09-30T17:00:00.000Z"
+  },
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "tipo": "ordinaria",
+  "participantes": [
+    {
+      "$oid": "67f7f9e9edc4a0f1b20ad577"
+    },
+    {
+      "$oid": "67f7f9e9edc4a0f1b20ad579"
+    },
+    {
+      "$oid": "67f7f9eaedc4a0f1b20ad57a"
+    },
+    {
+      "$oid": "67f7f9eaedc4a0f1b20ad57b"
+    },
+    {
+      "$oid": "67f7f9eaedc4a0f1b20ad57c"
+    },
+    {
+      "$oid": "67f7f9eaedc4a0f1b20ad57d"
+    }
+  ],
+  "summary": "Reunião ordinária da Câmara Municipal do Fundão, presidida pelo Dr. Paulo Alexandre Bernardo Fernandes, com a presença dos vereadores Dra. Joana Morgadinho Bento, Dra. Maria Alcina Domingues Cerdeira, Dr. Pedro Manuel Figueiredo Neto, Prof. Sérgio Miguel Cardoso Mendes e Dra. Ana Paula Coelho Duarte. A ata inclui a aprovação da ata anterior, discussão sobre o regadio da Gardunha Sul, apresentação de um novo curso CTeSP, colaboração com a Fundação Serralves, inaugurações e eventos recentes, e discussão sobre os incêndios no concelho. Foram aprovados o Código de Boa Conduta para a Prevenção e Combate ao Assédio no Trabalho, a adesão ao CISOC, o pagamento de quota à RICD, e a minuta do contrato-programa com a Freguesia de Bogas de Cima. Também foram discutidas questões urbanísticas e financeiras.",
+  "human_validated": false,
+  "processed": true,
+  "processing_errors": [],
+  "tags": [],
+  "slug": "ata-da-reuniao-de-30092024-camara-municipal-do-fundao",
+  "file_path": "",
+  "uploaded_at": {
+    "$date": "2025-09-08T15:46:43.546Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-06T14:20:05.964Z"
+  },
+  "status": "done",
+  "pdf_generated": false,
+  "field_validation": {
+    "title": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "content": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "date": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "location": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "tipo": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "summary": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "participantes": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "assuntos": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    }
+  },
+  "processing_progress": 100,
+  "summary_en": "Ordinary meeting of Fundão City Council, chaired by Dr. Paulo Alexandre Bernardo Fernandes, with the presence of councillors Dr. Joana Morgadinho Bento, Dr. Maria Alcina Domingues Cerdeira, Dr. Pedro Manuel Figueiredo Neto, Prof. Sérgio Miguel Cardoso Mendes and Dr. Ana Paula Coelho Duarte. The minutes include approval of the previous minutes, discussion of the Gardunha Sul irrigation scheme, presentation of a new CTeSP course, collaboration with the Serralves Foundation, recent inaugurations and events, and discussion of the fires in the municipality. The Code of Good Conduct for Preventing and Combating Harassment at Work, membership of CISOC, payment of the RICD fee, and the draft program contract with the parish of Bogas de Cima were approved. Urban planning and financial issues were also discussed.",
+  "title_en": "MINUTES OF THE MEETING OF 30/09/2024 FUNDÃO CITY COUNCIL"
+},
+{
+  "_id": {
+    "$oid": "68beeaab2d78952485ba0960"
+  },
+  "title": "TEXTO DEFINITIVO DA ATA Nº 06/2023 Da reunião ordinária pública",
+  "content": "",
+  "location": "Auditório Municipal, sito na Rua do Castelo, na Covilhã",
+  "date": {
+    "$date": "2023-04-21T09:15:00.000Z"
+  },
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "tipo": "ordinaria",
+  "participantes": [
+    {
+      "$oid": "67f8f0d233bdfc662a253906"
+    },
+    {
+      "$oid": "67f8f37a33bdfc662a253a1a"
+    },
+    {
+      "$oid": "67f8f19b33bdfc662a253976"
+    },
+    {
+      "$oid": "67f8f07033bdfc662a2538fe"
+    },
+    {
+      "$oid": "67f8f07033bdfc662a2538ff"
+    },
+    {
+      "$oid": "67f8f07033bdfc662a253900"
+    },
+    {
+      "$oid": "67f8f0d333bdfc662a253907"
+    }
+  ],
+  "summary": "Reunião ordinária da Câmara Municipal da Covilhã, presidida por Vítor Manuel Pinheiro Pereira, com a presença dos vereadores Jorge Manuel Afonso Gomes, Pedro Miguel Santos Farromba, Maria Regina Gomes Gouveia, Ricardo Miguel Correia Leitão Ferreira da Silva, José Miguel Ribeiro Oliveira e Marta Maria Tomaz Gomes Morais Alçada Bom Jesus. Foram discutidos e votados diversos assuntos, incluindo aprovação de atas, balancete, despachos, propostas dos departamentos (Administração Geral, Finanças, Obras, Educação, Urbanismo), intervenção do público e aprovação em minuta das deliberações. Destaque para discussão sobre taxas municipais, apoios a associações e obras públicas.",
+  "human_validated": false,
+  "processed": true,
+  "processing_errors": [],
+  "tags": [],
+  "slug": "texto-definitivo-da-ata-no-062023-da-reuniao-ordinaria-publica",
+  "file_path": "",
+  "uploaded_at": {
+    "$date": "2025-09-08T15:39:39.706Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-06T14:20:11.557Z"
+  },
+  "status": "done",
+  "pdf_generated": false,
+  "field_validation": {
+    "title": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "content": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "date": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "location": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "tipo": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "summary": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "participantes": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "assuntos": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    }
+  },
+  "processing_progress": 100,
+  "summary_en": "Ordinary meeting of Covilhã City Council, chaired by Vítor Manuel Pinheiro Pereira, with the presence of councillors Jorge Manuel Afonso Gomes, Pedro Miguel Santos Farromba, Maria Regina Gomes Gouveia, Ricardo Miguel Correia Leitão Ferreira da Silva, José Miguel Ribeiro Oliveira and Marta Maria Tomaz Gomes Morais Alçada Bom Jesus. Various issues were discussed and voted on, including the approval of minutes, trial balance, orders, proposals from departments (General Administration, Finance, Works, Education, Town Planning), public intervention and approval of draft resolutions. Highlights included discussions on municipal taxes, support for associations and public works.",
+  "title_en": "DEFINITIVE TEXT OF MINUTES No. 06/2023 Of the ordinary public meeting"
+},
+{
+  "_id": {
+    "$oid": "68bef0de9a362f7904052bff"
+  },
+  "title": "ATA Nº 20 REUNIÃO ORDINÁRIA DA CÂMARA MUNICIPAL DE CAMPO MAIOR, REALIZADA EM 6 DE NOVEMBRO DE 2024",
+  "content": "",
+  "location": "Edifício dos Paços do Concelho, nesta Vila",
+  "date": {
+    "$date": "2024-11-06T09:30:00.000Z"
+  },
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "tipo": "ordinaria",
+  "participantes": [
+    {
+      "$oid": "67f7f469edc4a0f1b20ad361"
+    },
+    {
+      "$oid": "67f7f469edc4a0f1b20ad362"
+    },
+    {
+      "$oid": "67f7f469edc4a0f1b20ad363"
+    },
+    {
+      "$oid": "67f7f469edc4a0f1b20ad364"
+    },
+    {
+      "$oid": "67f7f469edc4a0f1b20ad365"
+    }
+  ],
+  "summary": "Reunião ordinária da Câmara Municipal de Campo Maior. Foram discutidos e deliberados vários assuntos, incluindo a majoração da taxa de IMI para prédios urbanos degradados, a aprovação do projeto de execução para a empreitada de alteração e manutenção dos sistemas de AVAC e AQS das piscinas cobertas, a ratificação da modificação aos documentos previsionais, atribuição de apoios financeiros a diversas entidades, aprovação de parceria com a ABAAE Eco-Escolas, acordo de regularização de dívida, proposta de IRS, fixação das taxas relativas ao Imposto Municipal sobre Imóveis, lançamento de derrama, taxa municipal de direitos de passagem, isenção de taxas para a Liga dos Combatentes, preços dos bilhetes do Centro Cultural, incentivo à compra no comércio local, alienação de viaturas e regulamentação da habitação municipal.",
+  "human_validated": false,
+  "processed": true,
+  "processing_errors": [],
+  "tags": [],
+  "slug": "ata-no-20-reuniao-ordinaria-da-camara-municipal-de-campo-maior-realizada-em-6-de-novembro-de-2024",
+  "file_path": "",
+  "uploaded_at": {
+    "$date": "2025-09-08T16:06:06.721Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-06T14:20:05.410Z"
+  },
+  "status": "done",
+  "pdf_generated": false,
+  "field_validation": {
+    "title": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "content": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "date": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "location": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "tipo": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "summary": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "participantes": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "assuntos": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    }
+  },
+  "processing_progress": 100,
+  "summary_en": "Ordinary meeting of Campo Maior Town Council. A number of issues were discussed and deliberated, including the increase in the IMI rate for dilapidated urban buildings, approval of the execution project for the contract to alter and maintain the HVAC and DHW systems of the indoor swimming pools, ratification of the amendment to the provisional documents, allocation of financial support to various entities, approval of the partnership with ABAAE Eco-Schools, debt settlement agreement, IRS proposal, setting of Municipal Property Tax rates, municipal surcharge, municipal right of way tax, exemption from fees for the Combatants' League, ticket prices for the Cultural Centre, incentives to buy from local businesses, disposal of vehicles and regulation of municipal housing.",
+  "title_en": "MINUTES NO. 20 ORDINARY MEETING OF CAMPO MAIOR CITY COUNCIL, HELD ON NOVEMBER 6, 2024"
+},
+{
+  "_id": {
+    "$oid": "68bee7bd2d78952485ba02ee"
+  },
+  "title": "ATA Nº 20 REUNIÃO ORDINÁRIA DE 6 DE DEZEMBRO DE 2021",
+  "content": "",
+  "location": "Edifício dos Paços do Concelho, na Sala de Reuniões",
+  "date": {
+    "$date": "2021-12-06T10:00:00.000Z"
+  },
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "tipo": "ordinaria",
+  "participantes": [
+    {
+      "$oid": "67f8fd6b33bdfc662a253dfa"
+    },
+    {
+      "$oid": "67f8fd6b33bdfc662a253dfb"
+    },
+    {
+      "$oid": "67f8fd6c33bdfc662a253dfc"
+    },
+    {
+      "$oid": "67f8fd6c33bdfc662a253dfd"
+    },
+    {
+      "$oid": "67f8fd6c33bdfc662a253dfe"
+    },
+    {
+      "$oid": "67f8fd6c33bdfc662a253dff"
+    },
+    {
+      "$oid": "67f8fd6c33bdfc662a253e00"
+    },
+    {
+      "$oid": "67f8fd6c33bdfc662a253e01"
+    },
+    {
+      "$oid": "67f8fd6c33bdfc662a253e02"
+    },
+    {
+      "$oid": "67f8fd6c33bdfc662a253e04"
+    }
+  ],
+  "summary": "Reunião ordinária da Câmara Municipal de Guimarães. A reunião abordou diversos temas, incluindo a acessibilidade no Parque de Estacionamento da Mumadona, aprovação de atas anteriores, obras públicas, delegação de competências para freguesias, iluminação de Natal, regulamentos municipais, doações, recursos humanos, entidades participadas, trânsito, transportes, ambiente, turismo, saúde e ação social. Foram discutidas e votadas propostas relacionadas com estes temas, com a participação dos vereadores e do presidente da câmara.",
+  "human_validated": false,
+  "processed": true,
+  "processing_errors": [],
+  "tags": [],
+  "slug": "ata-no-20-reuniao-ordinaria-de-6-de-dezembro-de-2021",
+  "file_path": "",
+  "uploaded_at": {
+    "$date": "2025-09-08T15:27:09.073Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-06T14:20:17.610Z"
+  },
+  "status": "done",
+  "pdf_generated": false,
+  "field_validation": {
+    "title": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "content": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "date": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "location": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "tipo": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "summary": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "participantes": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "assuntos": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    }
+  },
+  "processing_progress": 100,
+  "summary_en": "Ordinary meeting of Guimarães City Council. The meeting covered various topics, including accessibility in the Mumadona parking lot, approval of previous minutes, public works, delegation of powers to parishes, Christmas lights, municipal regulations, donations, human resources, subsidiaries, traffic, transport, the environment, tourism, health and social action. Proposals related to these topics were discussed and voted on, with the participation of the councillors and the mayor.",
+  "title_en": "MINUTES NO. 20 ORDINARY MEETING OF DECEMBER 6, 2021"
+},
+{
+  "_id": {
+    "$oid": "68bee7e42d78952485ba034c"
+  },
+  "title": "ATA N.º 2 – Mandato 2021-2025 REUNIÃO EXTRAORDINÁRIA 22/10/2021 CÂMARA MUNICIPAL DE ALANDROAL",
+  "content": "",
+  "location": "Edifício Sede do Município de Alandroal",
+  "date": {
+    "$date": "2021-10-22T14:15:00.000Z"
+  },
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "tipo": "extraordinaria",
+  "participantes": [
+    {
+      "$oid": "67f8f1db6706a9470e090b1e"
+    },
+    {
+      "$oid": "67f8f9fa33bdfc662a253c10"
+    },
+    {
+      "$oid": "67f8f1dd6706a9470e090b29"
+    },
+    {
+      "$oid": "67f8f53a6706a9470e090b84"
+    },
+    {
+      "$oid": "68bee68e24b15f1731fdf551"
+    }
+  ],
+  "summary": "Reunião extraordinária da Câmara Municipal de Alandroal. Os vereadores presentes foram João Carlos Camões Roma Balsante, Paulo Jorge da Silva Gonçalves, Fernanda Manuela Brites Romão e José Francisco Figueira Andrezo Rodrigues, presidida por João Maria Aranha Grilo. A reunião abordou diversos temas, incluindo pedido de marcação de reunião extraordinária da Assembleia Municipal, aprovação de ata, processos e requerimentos diversos, protocolo com a MeteoAlentejo, atribuição de subsídios escolares e vales alimentares, autorizações de compromissos plurianuais, abate de veículos, alienação de lotes, correção ao regulamento de Juromenha, prorrogação de empreitada, trabalhos complementares na praia fluvial, plano de segurança da fortaleza, revisão de projeto da Casa do Castelo, rede de drenagem, processos de obras e ratificações orçamentais.",
+  "human_validated": false,
+  "processed": true,
+  "processing_errors": [],
+  "tags": [],
+  "slug": "ata-no-2-mandato-2021-2025-reuniao-extraordinaria-22102021-camara-municipal-de-alandroal",
+  "file_path": "",
+  "uploaded_at": {
+    "$date": "2025-09-08T15:27:48.864Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-06T14:20:18.653Z"
+  },
+  "status": "done",
+  "pdf_generated": false,
+  "field_validation": {
+    "title": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "content": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "date": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "location": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "tipo": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "summary": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "participantes": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "assuntos": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    }
+  },
+  "processing_progress": 100,
+  "summary_en": "Extraordinary meeting of Alandroal Town Council. The councillors present were João Carlos Camões Roma Balsante, Paulo Jorge da Silva Gonçalves, Fernanda Manuela Brites Romão and José Francisco Figueira Andrezo Rodrigues, chaired by João Maria Aranha Grilo. The meeting covered various topics, including a request to schedule an extraordinary meeting of the Municipal Assembly, approval of the minutes, various processes and requests, a protocol with MeteoAlentejo, the awarding of school subsidies and food vouchers, authorizations for multi-annual commitments, the scrapping of vehicles, the disposal of plots, a correction to the Juromenha regulations, the extension of a contract, additional work on the river beach, the fortress safety plan, a revision of the Casa do Castelo project, the drainage network, works processes and budget ratifications.",
+  "title_en": "MINUTES No. 2 - Term of office 2021-2025 EXTRAORDINARY MEETING 22/10/2021 MUNICIPAL COUNCIL OF ALANDROAL"
+},
+{
+  "_id": {
+    "$oid": "68c81453bbb9d75ce4bfb38c"
+  },
+  "title": "30.ª REUNIÃO PÚBLICA, DA CÂMARA MUNICIPAL DO PORTO REALIZADA EM 13 DE FEVEREIRO DE 2023",
+  "content": "",
+  "location": "N/A",
+  "date": {
+    "$date": "2023-02-13T09:30:00.000Z"
+  },
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "tipo": "ordinaria",
+  "participantes": [
+    {
+      "$oid": "68c81382bbb9d75ce4bfb28c"
+    },
+    {
+      "$oid": "68c81382bbb9d75ce4bfb28d"
+    },
+    {
+      "$oid": "68c81382bbb9d75ce4bfb28e"
+    },
+    {
+      "$oid": "68c81382bbb9d75ce4bfb28f"
+    },
+    {
+      "$oid": "68c81383bbb9d75ce4bfb290"
+    },
+    {
+      "$oid": "68c813a0bbb9d75ce4bfb2b7"
+    },
+    {
+      "$oid": "68c81384bbb9d75ce4bfb294"
+    },
+    {
+      "$oid": "68c81383bbb9d75ce4bfb292"
+    },
+    {
+      "$oid": "68c81383bbb9d75ce4bfb293"
+    },
+    {
+      "$oid": "68c81384bbb9d75ce4bfb296"
+    },
+    {
+      "$oid": "68c81452bbb9d75ce4bfb38b"
+    },
+    {
+      "$oid": "68c81385bbb9d75ce4bfb297"
+    },
+    {
+      "$oid": "68c81425bbb9d75ce4bfb354"
+    }
+  ],
+  "summary": "Reunião pública da Câmara Municipal do Porto. Discutida a Recomendação do BE sobre políticas para os consumos, com divergências entre os vereadores. Abordada a situação da sala de consumo assistido e a necessidade de envolvimento do governo. Apresentado o Observatório do Comércio. Discutidas questões sobre o CACE, STOP, Discoteca Eskada e CPCJ. Aprovado o Programa Fundo de Apoio ao Associativismo Portuense e a adesão à Rede Portuguesa das Cidades Interculturais. Discutida a revisão do Regulamento de Isenções de Impostos Municipais e a elaboração do Plano de Urbanização de Campanhã. Vários munícipes apresentaram exposições sobre trânsito, saúde pública, habitação social e atividades económicas.",
+  "human_validated": false,
+  "processed": false,
+  "processing_errors": [],
+  "tags": [],
+  "slug": "30a-reuniao-publica-da-camara-municipal-do-porto-realizada-em-13-de-fevereiro-de-2023",
+  "file_path": "",
+  "uploaded_at": {
+    "$date": "2025-09-15T14:27:47.059Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-06T14:20:12.355Z"
+  },
+  "status": "done",
+  "pdf_generated": false,
+  "field_validation": {
+    "title": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "content": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "date": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "location": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "tipo": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "summary": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "participantes": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    },
+    "assuntos": {
+      "is_valid": false,
+      "validated_at": null,
+      "validated_by": null
+    }
+  },
+  "processing_progress": 100,
+  "summary_en": "Public meeting of Porto City Council. The BE Recommendation on consumer policies was discussed, with disagreements between the councillors. Addressed the situation of the assisted consumption room and the need for government involvement. The Trade Observatory was presented. Discussed questions about CACE, STOP, Disco Eskada and CPCJ. Approval of the Porto Associations Support Fund Program and membership of the Portuguese Network of Intercultural Cities. The revision of the Municipal Tax Exemptions Regulations and the drafting of the Campanhã Urbanization Plan were discussed. Several residents presented their views on traffic, public health, social housing and economic activities.",
+  "title_en": "30TH PUBLIC MEETING OF THE CITY COUNCIL OF PORTO, HELD ON FEBRUARY 13, 2023"
+}]

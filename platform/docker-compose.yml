@@ -1,0 +1,40 @@
+services:
+  backend:
+    build: ./backend
+    container_name: citilink_demo_backend
+    ports:
+      - "5059:5059"
+    environment:
+      API_URL: http://localhost:5059
+      MONGO_URI_DEMO: mongodb://citilink_admin:ecir2026@mongodb:27017/citilink_demo?authSource=admin
+      JWT_SECRET_KEY: secret
+    volumes:
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+      - ./cm:/app/cm
+    depends_on:
+      - mongodb
+
+  nginx:
+    image: nginx:latest
+    container_name: citilink_demo_nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend/dist-demo:/usr/share/nginx/demo
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - backend
+
+  mongodb:
+    container_name: citilink_demo_mongodb
+    image: mongodb/mongodb-atlas-local
+    environment:
+      MONGODB_INITDB_ROOT_USERNAME: citilink_admin
+      MONGODB_INITDB_ROOT_PASSWORD: ecir2026
+      RUNNER_LOG_FILE: /dev/stderr
+    ports:
+      - 27018:27017
+    volumes:
+      - ./mongodb/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - ./mongodb/init:/docker-entrypoint-initdb.d

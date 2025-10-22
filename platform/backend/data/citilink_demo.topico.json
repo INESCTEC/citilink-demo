@@ -1,0 +1,198 @@
+[{
+  "_id": {
+    "$oid": "67f7f46bedc4a0f1b20ad36e"
+  },
+  "title": "Desporto",
+  "slug": "desporto",
+  "title_en": "Sports",
+  "slug_en": "sports"
+},
+{
+  "_id": {
+    "$oid": "67f7f48aedc4a0f1b20ad37f"
+  },
+  "title": "Obras Particulares",
+  "slug": "obras-particulares",
+  "title_en": "Private Works",
+  "slug_en": "private-works"
+},
+{
+  "_id": {
+    "$oid": "67f7f48cedc4a0f1b20ad384"
+  },
+  "title": "Obras Públicas",
+  "slug": "obras-publicas",
+  "title_en": "Public Works",
+  "slug_en": "public-works"
+},
+{
+  "_id": {
+    "$oid": "67f7f4fdedc4a0f1b20ad3a2"
+  },
+  "title": "Ordenamento do Território",
+  "slug": "ordenamento-do-territorio",
+  "title_en": "Land Use Planning",
+  "slug_en": "land-use-planning"
+},
+{
+  "_id": {
+    "$oid": "67f7f4feedc4a0f1b20ad3a6"
+  },
+  "title": "Energia",
+  "slug": "energia",
+  "title_en": "Energy and Telecommunications",
+  "slug_en": "energy-and-telecommunications"
+},
+{
+  "_id": {
+    "$oid": "67f7f4ffedc4a0f1b20ad3ad"
+  },
+  "title": "Património",
+  "slug": "patrimonio",
+  "title_en": "Heritage",
+  "slug_en": "heritage"
+},
+{
+  "_id": {
+    "$oid": "67f7f944edc4a0f1b20ad52d"
+  },
+  "title": "Trânsito, Transportes e Comunicações",
+  "slug": "transito-transportes-e-comunicacoes",
+  "title_en": "Traffic, Transportation and, Communications",
+  "slug_en": "traffic-transportation-and-communications"
+},
+{
+  "_id": {
+    "$oid": "67f7faf1edc4a0f1b20ad600"
+  },
+  "title": "Outras Informações",
+  "slug": "outras-informacoes",
+  "title_en": "Other",
+  "slug_en": "other"
+},
+{
+  "_id": {
+    "$oid": "67f8f79433bdfc662a253b20"
+  },
+  "title": "Polícia Municipal",
+  "slug": "policia-municipal",
+  "title_en": "Municipal Police",
+  "slug_en": "municipal-police"
+},
+{
+  "_id": {
+    "$oid": "67f7f46aedc4a0f1b20ad36a"
+  },
+  "title": "Ação Social",
+  "slug": "acao-social",
+  "title_en": "Social Action",
+  "slug_en": "social-action"
+},
+{
+  "_id": {
+    "$oid": "67f7f46bedc4a0f1b20ad36c"
+  },
+  "title": "Educação e Formação Profissional",
+  "slug": "educacao-e-formacao-profissional",
+  "title_en": "Education and Vocational Training",
+  "slug_en": "education-and-vocational-training"
+},
+{
+  "_id": {
+    "$oid": "67f7f604edc4a0f1b20ad416"
+  },
+  "title": "Atividades Económicas",
+  "slug": "atividades-economicas",
+  "title_en": "Economic Activities",
+  "slug_en": "economic-activities"
+},
+{
+  "_id": {
+    "$oid": "67f7f6e5edc4a0f1b20ad45c"
+  },
+  "title": "Cooperação Externa e Relações Internacionais",
+  "slug": "cooperacao-externa-e-relacoes-internacionais",
+  "title_en": "External Cooperation and International Relations",
+  "slug_en": "external-cooperation-and-international-relations"
+},
+{
+  "_id": {
+    "$oid": "67f7f46eedc4a0f1b20ad379"
+  },
+  "title": "Ambiente",
+  "slug": "ambiente",
+  "title_en": "Environment",
+  "slug_en": "environment"
+},
+{
+  "_id": {
+    "$oid": "67f7f4ccedc4a0f1b20ad39c"
+  },
+  "title": "Proteção Civil",
+  "slug": "protecao-civil",
+  "title_en": "Civil Protection",
+  "slug_en": "civil-protection"
+},
+{
+  "_id": {
+    "$oid": "67f7f4ffedc4a0f1b20ad3a9"
+  },
+  "title": "Habitação",
+  "slug": "habitacao",
+  "title_en": "Housing",
+  "slug_en": "housing"
+},
+{
+  "_id": {
+    "$oid": "67f7f899edc4a0f1b20ad4f5"
+  },
+  "title": "Saúde",
+  "slug": "saude",
+  "title_en": "Health",
+  "slug_en": "health"
+},
+{
+  "_id": {
+    "$oid": "67f7f46aedc4a0f1b20ad367"
+  },
+  "title": "Administração Geral, Finanças e Recursos Humanos",
+  "slug": "administracao-geral-financas-e-recursos-humanos",
+  "title_en": "General Administration, Finance, and Human Resources",
+  "slug_en": "general-administration-finance-and-human-resources"
+},
+{
+  "_id": {
+    "$oid": "67f7f48dedc4a0f1b20ad389"
+  },
+  "title": "Cultura",
+  "slug": "cultura",
+  "title_en": "Culture",
+  "slug_en": "culture"
+},
+{
+  "_id": {
+    "$oid": "67f7f6e5edc4a0f1b20ad45e"
+  },
+  "title": "Comunicação e Relações Públicas",
+  "slug": "comunicacao-e-relacoes-publicas",
+  "title_en": "Communication and Public Relations",
+  "slug_en": "communication-and-public-relations"
+},
+{
+  "_id": {
+    "$oid": "67f7fbf7edc4a0f1b20ad686"
+  },
+  "title": "Proteção Animal",
+  "slug": "protecao-animal",
+  "title_en": "Animal Protection",
+  "slug_en": "animal-protection"
+},
+{
+  "_id": {
+    "$oid": "67f8fec833bdfc662a253e44"
+  },
+  "title": "Ciência",
+  "slug": "ciencia",
+  "title_en": "Science",
+  "slug_en": "science"
+}]

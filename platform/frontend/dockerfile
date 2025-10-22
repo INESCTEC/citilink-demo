@@ -1,0 +1,14 @@
+# Use Node.js image
+FROM node:18
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies & build
+COPY package.json package-lock.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+# Serve with Nginx
+CMD ["npx", "serve", "-s", "dist", "-l", "3000"]

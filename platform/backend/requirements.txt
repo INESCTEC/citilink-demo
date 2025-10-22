@@ -1,0 +1,20 @@
+flask
+flasgger
+gunicorn
+python-dotenv
+werkzeug
+redis
+flask-jwt-extended # para os tokens JWT
+flask_cors
+pymongo
+mongoengine
+python-docx        # for handling DOCX files
+pypdf              # to count the pdf pages
+# spacy
+dnspython          # for email MX record validation
+celery
+redis
+celery[redis] 
+requests
+git+https://github.com/LIAAD/yake
+bcrypt

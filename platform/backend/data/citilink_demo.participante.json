@@ -1,0 +1,2380 @@
+[{
+  "_id": {
+    "$oid": "67f7f469edc4a0f1b20ad363"
+  },
+  "name": "Paulo Jorge Furtado Pinheiro",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "paulo_jorge.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_campo_maior/paulo_jorge.jpg",
+  "slug": "paulo-jorge-furtado-pinheiro",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:02.685Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f9e9edc4a0f1b20ad578"
+  },
+  "name": "Luís Miguel Roque Tarouca Duarte Gavinhos",
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "luis_miguel.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_fundao/luis_miguel.jpg",
+  "slug": "luis-miguel-roque-tarouca-duarte-gavinhos",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:53.723Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PSD",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f9eaedc4a0f1b20ad57a"
+  },
+  "name": "Maria Alcina Domingues Cerdeira",
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "maria_alcina.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_fundao/maria_alcina.jpg",
+  "slug": "maria-alcina-domingues-cerdeira",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:54.203Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PSD",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f9eaedc4a0f1b20ad57c"
+  },
+  "name": "Sérgio Miguel Cardoso Mendes",
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "sergio_miguel.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_fundao/sergio_miguel.jpg",
+  "slug": "sergio-miguel-cardoso-mendes",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:10.456Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7fd19edc4a0f1b20ad702"
+  },
+  "name": "João Manuel da Costa Correia",
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "joao-manuel-da-costa-correia",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:49.971Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f07033bdfc662a2538fd"
+  },
+  "name": "Jorge Humberto Martins Simões",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:47.194Z"
+  },
+  "slug": "jorge-humberto-martins-simoes",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "CDS-PP/PSD",
+      "term_start": 2011,
+      "term_end": 2014,
+      "sort": 4,
+      "role_en": "Councillor"
+    },
+    {
+      "role": "Vereador",
+      "party": "CDS-PP/PSD",
+      "term_start": 2015,
+      "term_end": 2019,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f1dc6706a9470e090b24"
+  },
+  "name": "Paulo Jorge Furtado Pinheiro",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "paulo-jorge-furtado-pinheiro-1",
+  "mandatos": [
+    {
+      "role": "",
+      "party": "",
+      "term_start": null,
+      "term_end": null,
+      "sort": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8fd6b33bdfc662a253dfa"
+  },
+  "name": "Domingos Bragança Salgado",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "domingos_braganca.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/domingos_braganca.jpg",
+  "slug": "domingos-braganca-salgado",
+  "mandatos": [
+    {
+      "role": "Presidente",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 1,
+      "role_en": "President"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:40.711Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253dfc"
+  },
+  "name": "Paulo Rui Lopes Pereira da Silva",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "paulo-rui-lopes-pereira-da-silva",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:37:04.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67fccdc727054978eb42e7d9"
+  },
+  "name": "Sérgio António Nanita Bicho",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "sergio-antonio-nanita-bicho",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:09.412Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67fe6cf6338128e19aa35ed3"
+  },
+  "name": "António José Faria de Paula Campos",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "antonio-jose-faria-de-paula-campos",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:37.800Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67fe95d5c0479e30e9ef3eb7"
+  },
+  "name": "Emília Rosa Leite Pereira Lemos",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "emilia-rosa-leite-pereira-lemos",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:42.151Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f7f469edc4a0f1b20ad362"
+  },
+  "name": "Paulo Ivo Sabino Martins de Almeida",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "paulo_ivo.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_campo_maior/paulo_ivo.jpg",
+  "slug": "paulo-ivo-sabino-martins-de-almeida",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:02.017Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "CDU",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f469edc4a0f1b20ad364"
+  },
+  "name": "Maria da Encarnação Grifo Silveirinha",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "sao_silveirinha.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_campo_maior/sao_silveirinha.jpg",
+  "slug": "maria-da-encarnacao-grifo-silveirinha",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:57.618Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f9e9edc4a0f1b20ad577"
+  },
+  "name": "Paulo Alexandre Bernardo Fernandes",
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "fernandes.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_fundao/fernandes.jpg",
+  "slug": "paulo-alexandre-bernardo-fernandes",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:01.454Z"
+  },
+  "mandatos": [
+    {
+      "role": "Presidente",
+      "party": "PSD",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 1,
+      "role_en": "President"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f9e9edc4a0f1b20ad579"
+  },
+  "name": "Joana Morgadinho Bento",
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "joana_morgadinho.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_fundao/joana_morgadinho.jpg",
+  "slug": "joana-morgadinho-bento",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:46.466Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f9eaedc4a0f1b20ad57d"
+  },
+  "name": "Ana Paula Coelho Duarte",
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "ana_paula.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_fundao/ana_paula.jpg",
+  "slug": "ana-paula-coelho-duarte",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:37.313Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PSD",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f07033bdfc662a2538fe"
+  },
+  "name": "Maria Regina Gomes Gouveia",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "maria_gouveia.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_da_covilha/maria_gouveia.jpg",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:56.148Z"
+  },
+  "slug": "maria-regina-gomes-gouveia",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f07033bdfc662a2538ff"
+  },
+  "name": "Ricardo Miguel Correia Leitão Ferreira da Silva",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "ricardo_silva.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_da_covilha/ricardo_silva.jpg",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:07.457Z"
+  },
+  "slug": "ricardo-miguel-correia-leitao-ferreira-da-silva",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "CDS-PP/PSD",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f07033bdfc662a253900"
+  },
+  "name": "José Miguel Ribeiro Oliveira",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "jose_oliveira.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_da_covilha/jose_oliveira.jpg",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:49.043Z"
+  },
+  "slug": "jose-miguel-ribeiro-oliveira",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f0d333bdfc662a253907"
+  },
+  "name": "Marta Maria Tomaz Gomes Morais Alçada Bom Jesus",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "marta_jesus.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_da_covilha/marta_jesus.jpg",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:59.548Z"
+  },
+  "slug": "marta-maria-tomaz-gomes-morais-alcada-bom-jesus",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "CDS-PP/PSD",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f19b33bdfc662a253976"
+  },
+  "name": "Pedro Miguel Santos Farromba",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "pedro_farromba.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_da_covilha/pedro_farromba.jpg",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:05.612Z"
+  },
+  "slug": "pedro-miguel-santos-farromba",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "CDS-PP/PSD",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f1db6706a9470e090b1e"
+  },
+  "name": "João Maria Aranha Grilo",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "joao-grilo.jpeg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_alandroal/joao-grilo.jpeg",
+  "slug": "joao-maria-aranha-grilo",
+  "mandatos": [
+    {
+      "role": "Presidente",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 1,
+      "role_en": "President"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:51.351Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8f37a33bdfc662a253a1a"
+  },
+  "name": "Jorge Manuel Afonso Gomes",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:47.648Z"
+  },
+  "slug": "jorge-manuel-afonso-gomes",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 2001,
+      "term_end": 2030,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f53a6706a9470e090b85"
+  },
+  "name": "Maria da Conceição Chilrito Mendes Rocha",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "maria-da-conceicao-chilrito-mendes-rocha",
+  "mandatos": [
+    {
+      "role": "Secretária",
+      "party": "",
+      "term_start": null,
+      "term_end": null,
+      "sort": 1,
+      "role_en": "Secretary"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:57.131Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253dfd"
+  },
+  "name": "Paula Cristina dos Santos Oliveira",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "paula_oliveira.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/paula_oliveira.jpg",
+  "slug": "paula-cristina-dos-santos-oliveira",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:37:01.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f9037833bdfc662a253fb6"
+  },
+  "name": "João Vicente Ribeiro Salgado",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "joao-vicente-ribeiro-salgado",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:51.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67fccdc727054978eb42e7d8"
+  },
+  "name": "Vanda de Fátima da Encarnação Gorino Alegria",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "vanda-de-fatima-da-encarnacao-gorino-alegria",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:11.354Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6808bd4d4c238edded592cff"
+  },
+  "name": "Ana Cristina Cachapa",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": true,
+  "created_at": {
+    "$date": "2025-04-23T11:12:07.507Z"
+  },
+  "updated_at": {
+    "$date": "2025-09-18T11:36:35.151Z"
+  },
+  "slug": "ana-cristina-cachapa",
+  "description": "",
+  "email": "",
+  "participante_type": "null",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "term_start": 1,
+      "term_end": null,
+      "sort": null,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6808bd844c238edded592dc0"
+  },
+  "name": "Carlos Alberto Pinto",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": false,
+  "created_at": {
+    "$date": "2025-04-23T11:12:07.507Z"
+  },
+  "updated_at": {
+    "$date": "2025-09-18T11:36:38.810Z"
+  },
+  "description": "",
+  "email": "",
+  "slug": "carlos-alberto-pinto",
+  "participante_type": "null",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PSD",
+      "term_start": 2001,
+      "term_end": null,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f469edc4a0f1b20ad365"
+  },
+  "name": "Fátima do Rosário Pingo Vitorino Pereira",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "fatima_vitorino.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_campo_maior/fatima_vitorino.jpg",
+  "slug": "fatima-do-rosario-pingo-vitorino-pereira",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:45.182Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "CDU",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f07033bdfc662a2538fc"
+  },
+  "name": "José Armando Serra dos Reis",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "jose_reis.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_da_covilha/jose_reis.jpg",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:48.131Z"
+  },
+  "slug": "jose-armando-serra-dos-reis",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 2,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f1dc6706a9470e090b1f"
+  },
+  "name": "Marta Cristina Simões da Silva Patacão Rodrigues",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "marta-cristina-simoes-da-silva-patacao-rodrigues",
+  "mandatos": [
+    {
+      "role": "Secretária",
+      "party": "",
+      "term_start": null,
+      "term_end": null,
+      "sort": 1,
+      "role_en": "Secretary"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:59.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8f1dc6706a9470e090b25"
+  },
+  "name": "Fátima do Rosário Pingo Vitorino Pereira",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "fatima-do-rosario-pingo-vitorino-pereira-1",
+  "mandatos": [
+    {
+      "role": "",
+      "party": "",
+      "term_start": null,
+      "term_end": null,
+      "sort": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f1dd6706a9470e090b29"
+  },
+  "name": "Paulo Jorge da Silva Gonçalves",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "paulo-goncalves.png",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_alandroal/paulo-goncalves.png",
+  "slug": "paulo-jorge-da-silva-goncalves",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:37:03.656Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8f53a6706a9470e090b84"
+  },
+  "name": "Fernanda Manuela Brites Romão",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "fernanda-romao.png",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_alandroal/fernanda-romao.png",
+  "slug": "fernanda-manuela-brites-romao",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:42.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253dfe"
+  },
+  "name": "Nelson José Guimarães Felgueiras",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "nelson_felgueiras.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/nelson_felgueiras.jpg",
+  "slug": "nelson-jose-guimaraes-felgueiras",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:37:00.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253dff"
+  },
+  "name": "Alice Sofia de Freitas Soares Ferreira Fernandes",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "alice_fernandesjpg.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/alice_fernandesjpg.jpg",
+  "slug": "alice-sofia-de-freitas-soares-ferreira-fernandes",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:34.191Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253e00"
+  },
+  "name": "Ana Maria Prego de Faria Berkeley Cotter",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "ana_cotter.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/ana_cotter.jpg",
+  "slug": "ana-maria-prego-de-faria-berkeley-cotter",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:36.387Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253e02"
+  },
+  "name": "Ricardo José Machado Pereira da Silva Araújo",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "ricardo_araujo.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/ricardo_araujo.jpg",
+  "slug": "ricardo-jose-machado-pereira-da-silva-araujo",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PSD/CDS-PP",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:37:06.085Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f960c8bcbcf777d1fa35d9"
+  },
+  "name": "João Marciano Azinhais Muacho",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "joao-marciano-azinhais-muacho",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:50.439Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f469edc4a0f1b20ad361"
+  },
+  "name": "Luís Fernando Martins Rosinha",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "luis_rosinha.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_campo_maior/luis_rosinha.jpg",
+  "slug": "luis-fernando-martins-rosinha-2",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:52.735Z"
+  },
+  "mandatos": [
+    {
+      "role": "Presidente",
+      "party": "PS",
+      "term_start": 1,
+      "term_end": null,
+      "sort": 1,
+      "role_en": "President"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f7f9eaedc4a0f1b20ad57b"
+  },
+  "name": "Pedro Manuel Figueiredo Neto",
+  "municipio": {
+    "$oid": "67f7f9e9edc4a0f1b20ad576"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "pedro_manuel.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_fundao/pedro_manuel.jpg",
+  "slug": "pedro-manuel-figueiredo-neto",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:04.649Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PSD",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f0d233bdfc662a253906"
+  },
+  "name": "Vítor Manuel Pinheiro Pereira",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "vitor_pereira.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_da_covilha/vitor_pereira.jpg",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:13.403Z"
+  },
+  "slug": "vitor-manuel-pinheiro-pereira",
+  "mandatos": [
+    {
+      "role": "Presidente",
+      "party": "PS",
+      "term_start": 2024,
+      "term_end": 2028,
+      "sort": 1,
+      "role_en": "President"
+    },
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "term_start": 2020,
+      "term_end": 2024,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f8f1dd6706a9470e090b2a"
+  },
+  "name": "Elisabete de Jesus dos Passos Galhardas",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "câmara",
+  "profile_photo": "",
+  "slug": "elisabete-de-jesus-dos-passos-galhardas",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "Nós, Cidadãos",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:41.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8f53a6706a9470e090b83"
+  },
+  "name": "Paulo Jorge da Silva Fernandes",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "paulo-jorge-da-silva-fernandes",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "term_start": null,
+      "term_end": null,
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:37:03.171Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8f9fa33bdfc662a253c10"
+  },
+  "name": "João Carlos Camões Roma Balsante",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "joao-balsante.png",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_do_alandroal/joao-balsante.png",
+  "slug": "joao-carlos-camoes-roma-balsante",
+  "mandatos": [
+    {
+      "role": "Vice-Presidente",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 2,
+      "role_en": "Vice-President"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:49.516Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6b33bdfc662a253dfb"
+  },
+  "name": "Adelina Paula Mendes Pinto",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "adelina_pinto.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/adelina_pinto.jpg",
+  "slug": "adelina-paula-mendes-pinto",
+  "mandatos": [
+    {
+      "role": "Vice-Presidente",
+      "party": "PS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 2,
+      "role_en": "Vice-President"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:32.364Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253e01"
+  },
+  "name": "Bruno Alberto Vieira Fernandes",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "bruno_fernandes.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/bruno_fernandes.jpg",
+  "slug": "bruno-alberto-vieira-fernandes",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PSD/CDS-PP",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:38.312Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253e03"
+  },
+  "name": "Vânia Carvalho Dias da Silva de Antas de Barros",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "vania_silva.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/vania_silva.jpg",
+  "slug": "vania-carvalho-dias-da-silva-de-antas-de-barros",
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PSD/CDS-PP",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:37:12.763Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f8fd6c33bdfc662a253e04"
+  },
+  "name": "Hugo Miguel Alves Ribeiro",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "description": "",
+  "email": "",
+  "image_filename": "hugo_ribeiro.jpg",
+  "participante_type": "câmara",
+  "profile_photo": "/uploads/participantes/municipio_de_guimaraes/hugo_ribeiro.jpg",
+  "slug": "hugo-miguel-alves-ribeiro",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PSD/CDS-PP",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-09-18T11:36:45.997Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67fe6cd9338128e19aa35ebd"
+  },
+  "name": "Ana Maria Salvado dos Santos Tavares Rodrigues",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": false,
+  "description": "",
+  "email": "",
+  "image_filename": "",
+  "participante_type": "",
+  "profile_photo": "",
+  "slug": "ana-maria-salvado-dos-santos-tavares-rodrigues-1",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:36.829Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "term_start": 101,
+      "term_end": null,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6808bd854c238edded592dc1"
+  },
+  "name": "Adolfo Miguel Baptista Mesquita Nunes",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": false,
+  "created_at": {
+    "$date": "2025-04-23T11:12:07.507Z"
+  },
+  "updated_at": {
+    "$date": "2025-09-18T11:36:32.798Z"
+  },
+  "description": "",
+  "email": "",
+  "slug": "adolfo-miguel-baptista-mesquita-nunes",
+  "participante_type": "null",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "CDS",
+      "term_start": 1,
+      "term_end": 2001,
+      "sort": 4,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6808be8f4c238edded5930b1"
+  },
+  "name": "Nuno Flávio Costa Reis",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": false,
+  "created_at": {
+    "$date": "2025-04-23T11:12:07.507Z"
+  },
+  "updated_at": {
+    "$date": "2025-09-18T11:37:00.534Z"
+  },
+  "description": "",
+  "email": "",
+  "image_filename": "nuno_reis.png",
+  "profile_photo": "/uploads/participantes/municipio_da_covilha/nuno_reis.png",
+  "slug": "nuno-flavio-costa-reis",
+  "participante_type": "assembleia",
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "CDS",
+      "term_start": 2021,
+      "term_end": 2025,
+      "sort": 3,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68bee68e24b15f1731fdf551"
+  },
+  "name": "José Francisco Figueira Andrezo Rodrigues",
+  "municipio": {
+    "$oid": "67f8f1db6706a9470e090b1d"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "jose-francisco-figueira-andrezo-rodrigues-municipio-do-alandroal",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:48.603Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "Nós Cidadãos",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68bee6af24b15f1731fdf5aa"
+  },
+  "name": "João Marciano Azinhais Muacho",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "joao-marciano-azinhais-muacho-municipio-da-covilha",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:50.873Z"
+  },
+  "mandatos": [
+    {
+      "role": "Presidente",
+      "party": "",
+      "sort": 1,
+      "role_en": "President"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68bee98f2d78952485ba0715"
+  },
+  "name": "Eduardo Miguel Teixeira Fernandes",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "eduardo-miguel-teixeira-fernandes-municipio-de-guimaraes",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:41.182Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68bee9b02d78952485ba074a"
+  },
+  "name": "Sofia Ferreira",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "sofia-ferreira-municipio-de-guimaraes",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:08.409Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68beea8d2d78952485ba0920"
+  },
+  "name": "São Silveirinha",
+  "municipio": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "sao-silveirinha-municipio-de-campo-maior",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:08.977Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68beeaef2d78952485ba09f0"
+  },
+  "name": "Vânia Carvalho Dias da Silva Antas de Barros",
+  "municipio": {
+    "$oid": "67f8fd6b33bdfc662a253df9"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "vania-carvalho-dias-da-silva-antas-de-barros-municipio-de-guimaraes",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:12.283Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68bef1449a362f7904052c1e"
+  },
+  "name": "Pedro Miguel Correia Leitão Ferreira da Silva",
+  "municipio": {
+    "$oid": "67f8f07033bdfc662a2538fb"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "pedro-miguel-correia-leitao-ferreira-da-silva-municipio-da-covilha",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:05.115Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81382bbb9d75ce4bfb28c"
+  },
+  "name": "Rui de Carvalho de Araújo Moreira",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "rui-de-carvalho-de-araujo-moreira-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:07.938Z"
+  },
+  "mandatos": [
+    {
+      "role": "Presidente",
+      "party": "RM",
+      "sort": 1,
+      "role_en": "President"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81382bbb9d75ce4bfb28d"
+  },
+  "name": "Filipe Manuel Ventura Camões de Almeida Araújo",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "filipe-manuel-ventura-camoes-de-almeida-araujo-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:44.255Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "RM",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81382bbb9d75ce4bfb28e"
+  },
+  "name": "Ana Catarina da Rocha Araújo",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "ana-catarina-da-rocha-araujo-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:34.654Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "RM",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81382bbb9d75ce4bfb28f"
+  },
+  "name": "Ricardo Miguel Araújo Cardoso Valente",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "ricardo-miguel-araujo-cardoso-valente-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:06.558Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81383bbb9d75ce4bfb290"
+  },
+  "name": "Albino Pedro Pereira Baganha",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "albino-pedro-pereira-baganha-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:33.733Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "RM",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81383bbb9d75ce4bfb291"
+  },
+  "name": "Cristina Mafalda Nieto Guimarães Pimentel",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "cristina-mafalda-nieto-guimaraes-pimentel-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:40.236Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81383bbb9d75ce4bfb292"
+  },
+  "name": "Tiago Barbosa Ribeiro",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "tiago-barbosa-ribeiro-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:10.890Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PS",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81383bbb9d75ce4bfb293"
+  },
+  "name": "Maria do Rosário Gambôa Lopes de Carvalho",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "maria-do-rosario-gamboa-lopes-de-carvalho-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:58.090Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "PS",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81384bbb9d75ce4bfb294"
+  },
+  "name": "Catarina Maria da Costa Santos Cunha Pereira de Abreu",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "catarina-maria-da-costa-santos-cunha-pereira-de-abreu-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:39.746Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81384bbb9d75ce4bfb295"
+  },
+  "name": "Vladimiro Mota Cardoso Feliz",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "vladimiro-mota-cardoso-feliz-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:11.812Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "PSD",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81384bbb9d75ce4bfb296"
+  },
+  "name": "Alberto Amaro Guedes Machado",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "alberto-amaro-guedes-machado-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:33.281Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81385bbb9d75ce4bfb297"
+  },
+  "name": "Maria Ilda da Costa Figueiredo",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "maria-ilda-da-costa-figueiredo-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:54.705Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "CDU",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81385bbb9d75ce4bfb298"
+  },
+  "name": "Sérgio Augusto Leite Aires",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "sergio-augusto-leite-aires-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:09.930Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "BE",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c813a0bbb9d75ce4bfb2b7"
+  },
+  "name": "Fernando Paulo Ribeiro de Sousa",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "fernando-paulo-ribeiro-de-sousa-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:43.790Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c813a0bbb9d75ce4bfb2b8"
+  },
+  "name": "Luís António da Costa Catarino",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "luis-antonio-da-costa-catarino-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:52.252Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c813a1bbb9d75ce4bfb2b9"
+  },
+  "name": "Mariana Ferreira Ribeiro Macedo",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "mariana-ferreira-ribeiro-macedo-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:58.555Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c813a1bbb9d75ce4bfb2ba"
+  },
+  "name": "Maria Teresa Burnay Summavielle",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "maria-teresa-burnay-summavielle-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:56.614Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c813bfbbb9d75ce4bfb2de"
+  },
+  "name": "Fernando Jorge Garcia Pereira",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "fernando-jorge-garcia-pereira-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:43.111Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c813febbb9d75ce4bfb325"
+  },
+  "name": "Carolina Macedo dos Santos",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "carolina-macedo-dos-santos-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:39.266Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81424bbb9d75ce4bfb352"
+  },
+  "name": "Ricardo Miguel Araújo Valente",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "ricardo-miguel-araujo-valente-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:37:06.966Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81425bbb9d75ce4bfb353"
+  },
+  "name": "Ana Filipa dos Santos Pato Correia Pinto Barbosa",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "ana-filipa-dos-santos-pato-correia-pinto-barbosa-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:35.911Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81425bbb9d75ce4bfb354"
+  },
+  "name": "Maria Manuel de Almeida Rola",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "maria-manuel-de-almeida-rola-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:55.655Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "BE",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c8143bbbb9d75ce4bfb36f"
+  },
+  "name": "Maria João de Abreu Mena Guimarães e Castro",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "maria-joao-de-abreu-mena-guimaraes-e-castro-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:55.182Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereadora",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c81452bbb9d75ce4bfb38b"
+  },
+  "name": "Filipe Trigueiros Rafael de Sampaio Rodrigues",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "filipe-trigueiros-rafael-de-sampaio-rodrigues-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:44.733Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c814b7bbb9d75ce4bfb3fb"
+  },
+  "name": "Luís Manuel Moreira Pinto de Faria",
+  "municipio": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "active": true,
+  "email": "",
+  "description": "",
+  "participante_type": "câmara",
+  "slug": "luis-manuel-moreira-pinto-de-faria-municipio-do-porto",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:53.248Z"
+  },
+  "mandatos": [
+    {
+      "role": "Vereador",
+      "party": "",
+      "sort": 1,
+      "role_en": "Councillor"
+    }
+  ]
+}]
