@@ -42,7 +42,7 @@
    MODEL_NAME=gemini-2.0-flash
 
    # MongoDB configuration (optional, defaults provided)
-   MONGO_URI=mongodb://localhost:27017
+   MONGO_URI=mongodb://localhost:27018
    MONGO_DB=citilink
 
    # Processing settings (optional)
@@ -131,14 +131,14 @@ python -m src.main --clear-db --municipality Fundao --years 2024
 
 The application includes data from the following Portuguese municipalities:
 
-| Municipality | Files Available | 
-|--------------|-----------------|
-| **Alandroal** | 1 file | 
-| **Campo Maior** | 1 file | 
-| **Covilhã** | 1 file | 
-| **Fundão** | 1 file | 
-| **Guimarães** | 1 file | 
-| **Porto** | 1 file | 
+| Municipality | Files Available | Years |
+|--------------|-----------------|-------|
+| **Alandroal** | 1 file | 2022 |
+| **Campo Maior** | 1 file | 2024 |
+| **Covilhã** | 1 file | 2023 |
+| **Fundão** | 1 file | 2024 |
+| **Guimarães** | 1 file | 2023 |
+| **Porto** | 1 file | 2023 |
 
 ## 3. Database Management
 
@@ -200,7 +200,8 @@ data_generation_program/
 │   ├── config.py          # Configuration settings
 │   ├── main.py            # Main application entry point
 │   ├── models/
-│   │   └── database.py    # MongoDB models
+│   │   ├── database.py    # Database auxiliary functions
+│   │   └── models.py      # MongoDB models
 │   ├── processors/
 │   │   ├── file_processor.py    # Text file processor
 │   │   ├── content_generator.py # LLM content generation
@@ -217,25 +218,11 @@ data_generation_program/
 └── venv/                  # Python virtual environment
 ```
 
-## 5. Data Model
-
-The application extracts and stores the following structured data from municipal meeting minutes:
-
-### Core Models:
-- **Municipio**: Municipality information (name, district, etc.)
-- **Ata**: Meeting minutes with metadata (date, type, location, etc.)
-- **Participante**: Meeting participants (mayor, councilors, secretaries)
-- **Assunto**: Topics/subjects discussed in meetings
-- **Voto**: Individual votes on topics (embedded in Assunto)
-- **Pelouro**: Departments/portfolios
-- **Media**: Associated media files
-
 ### Extracted Data Types:
-1. **Metadata** (`metadados.json`): Meeting date, type, location, municipality
-2. **Participants** (`participantes.json`): List of attendees with roles
-3. **Votes** (`votos.json`): Voting records on different topics
+1. **Metadata** (`metadados.json`): Meeting date, type, location, municipality and participants (which are inside `participantes.json`)
+2. **Subjects and Votes** (`votos.json`): Subjects and respective Voting records on different topics and respective subjects.
 
-## 6. AI-Powered Processing
+## 5. LLM-based Processing
 
 ### Google Gemini Integration
 - Uses Google Gemini 2.0 Flash model for content extraction
@@ -249,7 +236,7 @@ The application extracts and stores the following structured data from municipal
 - **JSON validation**: Output is validated against predefined schemas
 - **Portuguese language**: Optimized for Portuguese municipal terminology
 
-## 7. Troubleshooting
+## 6. Troubleshooting
 
 ### Common Issues:
 
@@ -281,7 +268,7 @@ Logs are saved to:
 
 To increase logging verbosity, modify `src/utils/logging_utils.py`.
 
-## 8. Performance Tips
+## 7. Other Features
 
 - **Chunking**: Large documents are automatically chunked for optimal processing
 - **Caching**: AI model instances are cached to reduce initialization overhead

@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "67f8f07033bdfc662a2538fb"
   },
-  "name": "Município da Covilhã",
+  "name": "Covilhã",
   "description": "A Covilhã é uma cidade situada na região Centro, junto à Serra da Estrela. Conhecida pelo seu passado ligado à indústria têxtil, a cidade mantém um forte dinamismo académico devido à presença da Universidade da Beira Interior (UBI). Com um património histórico rico, combina tradição e modernidade, destacando-se pelas suas paisagens montanhosas, turismo de neve e oferta cultural diversificada.",
   "website": "https://www.cm-covilha.pt/",
   "image_filename": "20250602214150_20250419223949_20250319115549_covilha.png",
@@ -16,41 +16,9 @@
 },
 {
   "_id": {
-    "$oid": "6800f0f51dc85f321b6e0754"
-  },
-  "name": "Município do Porto",
-  "description": "O Município do Porto, situado no norte de Portugal, é composto por sete freguesias e tem um papel importante na região, tanto a nível económico como cultural. O município caracteriza-se por um forte dinamismo urbano, com investimentos na inovação, no turismo e na modernização dos serviços públicos. Além do seu património histórico e arquitetónico, destaca-se pela sua ligação ao rio Douro e pela diversidade de atividades económicas, que vão desde o comércio e serviços até ao setor tecnológico e portuário.",
-  "website": "https://www.cm-porto.pt/",
-  "image_filename": "20250422164320_20250323120021_Logo_CMP.png",
-  "squared_image_filename": "20250422164320_20250326144842_Logo_CMP.png",
-  "updated_at": {
-    "$date": "2025-09-18T11:36:13.970Z"
-  },
-  "slug": "municipio-do-porto",
-  "description_en": "The Municipality of Porto, located in the north of Portugal, is made up of seven parishes and plays an important role in the region, both economically and culturally. The municipality is characterized by a strong urban dynamism, with investments in innovation, tourism and the modernization of public services. In addition to its historical and architectural heritage, it stands out for its connection to the River Douro and its diversity of economic activities, ranging from commerce and services to the...",
-  "name_en": "Municipality of Porto"
-},
-{
-  "_id": {
-    "$oid": "67f7f469edc4a0f1b20ad360"
-  },
-  "name": "Município de Campo Maior",
-  "description": "Campo Maior, situado no distrito de Portalegre, é uma vila conhecida pela sua ligação à indústria do café e pela emblemática Festa do Povo, um evento que transforma as ruas da vila com enfeites de papel feitos pela comunidade local. A sua proximidade à fronteira com Espanha marcou a sua história, visível no seu castelo e nas fortificações que protegiam a região.",
-  "website": "https://www.cm-campo-maior.pt/",
-  "image_filename": "20250419214549_20250318210949_campo_maior.png",
-  "squared_image_filename": "20250419214549_20250326152209_Design_sem_nome-2.png",
-  "updated_at": {
-    "$date": "2025-09-18T11:36:14.750Z"
-  },
-  "slug": "municipio-de-campo-maior",
-  "description_en": "Campo Maior, located in the district of Portalegre, is a town known for its connection to the coffee industry and for the emblematic Festa do Povo, an event that transforms the town's streets with paper decorations made by the local community. Its proximity to the Spanish border has marked its history, visible in its castle and the fortifications that protected the region.",
-  "name_en": "Municipality of Campo Maior"
-},
-{
-  "_id": {
     "$oid": "67f7f9e9edc4a0f1b20ad576"
   },
-  "name": "Município do Fundão",
+  "name": "Fundão",
   "description": "Localizado na Beira Interior, o Fundão é conhecido pela sua forte ligação à produção agrícola, especialmente à cereja do Fundão, um dos produtos mais reconhecidos da região. Além disso, a cidade tem investido na inovação e no empreendedorismo, destacando-se como um polo de atração para startups tecnológicas. O município também possui uma riqueza natural impressionante, com paisagens serranas que convidam ao turismo de natureza.",
   "website": "https://www.cm-fundao.pt/",
   "image_filename": "20250430001412_20250422164145_20250318211044_fundao.png",
@@ -66,7 +34,7 @@
   "_id": {
     "$oid": "67f8f1db6706a9470e090b1d"
   },
-  "name": "Município do Alandroal",
+  "name": "Alandroal",
   "description": "Localizado no distrito de Évora, Alandroal é uma cidade do Alentejo rica em património histórico e cultural. Conhecida pelos seus castelos, como o Castelo do Alandroal e o Castelo de Terena, a região destaca-se pela tranquilidade das suas paisagens e pela influência da cultura alentejana. A gastronomia típica, como as migas e o ensopado de borrego, reflete a tradição agrícola da região.",
   "website": "https://www.cm-alandroal.pt",
   "image_filename": "20250422164221_20250318210909_alandroal.png",
@@ -82,7 +50,7 @@
   "_id": {
     "$oid": "67f8fd6b33bdfc662a253df9"
   },
-  "name": "Município de Guimarães",
+  "name": "Guimarães",
   "description": "Conhecida como o “berço da nação”, Guimarães é uma cidade do norte de Portugal com grande importância histórica. Foi aqui que nasceu D. Afonso Henriques, o primeiro rei de Portugal, e o seu centro histórico, classificado como Património Mundial da UNESCO, preserva o legado medieval do país. O Castelo de Guimarães e o Paço dos Duques de Bragança são alguns dos seus pontos de interesse mais emblemáticos",
   "website": "https://www.cm-guimaraes.pt/",
   "image_filename": "20250422164251_20250318205801_guimaraes.png",
@@ -93,4 +61,36 @@
   "slug": "municipio-de-guimaraes",
   "description_en": "Known as the \"cradle of the nation\", Guimarães is a city in the north of Portugal with great historical importance. It was here that D. Afonso Henriques, Portugal's first king, was born and its historic center, classified as a UNESCO World Heritage Site, preserves the country's medieval legacy. Guimarães Castle and the Palace of the Dukes of Bragança are some of its most emblematic points of interest",
   "name_en": "Municipality of Guimarães"
+},
+{
+  "_id": {
+    "$oid": "67f7f469edc4a0f1b20ad360"
+  },
+  "name": "Campo Maior",
+  "description": "Campo Maior, situado no distrito de Portalegre, é uma vila conhecida pela sua ligação à indústria do café e pela emblemática Festa do Povo, um evento que transforma as ruas da vila com enfeites de papel feitos pela comunidade local. A sua proximidade à fronteira com Espanha marcou a sua história, visível no seu castelo e nas fortificações que protegiam a região.",
+  "website": "https://www.cm-campo-maior.pt/",
+  "image_filename": "20250419214549_20250318210949_campo_maior.png",
+  "squared_image_filename": "20250419214549_20250326152209_Design_sem_nome-2.png",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:14.750Z"
+  },
+  "slug": "municipio-de-campo-maior",
+  "description_en": "Campo Maior, located in the district of Portalegre, is a town known for its connection to the coffee industry and for the emblematic Festa do Povo, an event that transforms the town's streets with paper decorations made by the local community. Its proximity to the Spanish border has marked its history, visible in its castle and the fortifications that protected the region.",
+  "name_en": "Municipality of Campo Maior"
+},
+{
+  "_id": {
+    "$oid": "6800f0f51dc85f321b6e0754"
+  },
+  "name": "Porto",
+  "description": "O Município do Porto, situado no norte de Portugal, é composto por sete freguesias e tem um papel importante na região, tanto a nível económico como cultural. O município caracteriza-se por um forte dinamismo urbano, com investimentos na inovação, no turismo e na modernização dos serviços públicos. Além do seu património histórico e arquitetónico, destaca-se pela sua ligação ao rio Douro e pela diversidade de atividades económicas, que vão desde o comércio e serviços até ao setor tecnológico e portuário.",
+  "website": "https://www.cm-porto.pt/",
+  "image_filename": "20250422164320_20250323120021_Logo_CMP.png",
+  "squared_image_filename": "20250422164320_20250326144842_Logo_CMP.png",
+  "updated_at": {
+    "$date": "2025-09-18T11:36:13.970Z"
+  },
+  "slug": "municipio-do-porto",
+  "description_en": "The Municipality of Porto, located in the north of Portugal, is made up of seven parishes and plays an important role in the region, both economically and culturally. The municipality is characterized by a strong urban dynamism, with investments in innovation, tourism and the modernization of public services. In addition to its historical and architectural heritage, it stands out for its connection to the River Douro and its diversity of economic activities, ranging from commerce and services to the...",
+  "name_en": "Municipality of Porto"
 }]

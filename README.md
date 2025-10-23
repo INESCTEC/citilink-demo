@@ -2,6 +2,8 @@
 
 # CitiLink - Enhancing Municipal Transparency and Citizen Engagement through Searchable Meeting Minutes
 
+### [Try out the live demo](https://demo.citilink.inesctec.pt/en)
+
 CitiLink is a platform that presents structured and searchable data extracted from municipal meeting minutes. It aims to demonstrate how Natural Language Processing (NLP) and Information Retrieval (IR) can make local government documentation more accessible and transparent. 
 
 **What this project does**: In this demo, we focus on the exploration and visualization of meeting minutes from 6 Portuguese municipalities: Alandroal, Campo Maior, Covilhã, Fundão, Guimarães, and Porto.
@@ -21,7 +23,7 @@ This project is currently in development.
 - Languages: Python, JavaScript
 - Frameworks: Flask, React, Tailwind CSS
 - Database: MongoDB Atlas
-- Other tools: Docker
+- Other tools: Docker, Vite
 
 ## Dependencies
 Listed on `data_extraction/requirements.txt` and `platform/backend/requirements.txt`
@@ -44,40 +46,80 @@ Listed on `data_extraction/requirements.txt` and `platform/backend/requirements.
    ```
 
 ## Usage
+### Project Structure
+
+```
+citilink/
+├── data_extraction/          # Minute document processing
+│   ├── src/
+│   │   ├── processors/       # Document processors
+│   │   ├── models/           # Database schemas
+│   │   ├── prompts/          # Gemini Prompts
+│   │   └── utils/            # Utilities
+│   ├── scripts/              # Management scripts
+│   └── data/                 # Input documents
+│
+└── platform/                 # Web platform
+    ├── backend/              # Flask API server
+    ├── frontend/             # React.js application
+    ├── nginx/                # Reverse proxy config
+    ├── mongodb/              # Mongodb database config
+    └── docker-compose.yml    # Docker setup
+```
 
 ### Platform
+If not, run the Docker setup above, then access the following URLs in your web browser:
 - Web Interface: http://localhost
 - API Documentation: http://localhost:5059/api/docs
    
 ### Data Extraction
+1. **If not, run the Docker setup above**
 
-See `data_extraction/README.md` for instructions on processing documents and populating the database.
+2. **Enter the data_extraction directory**:
+   ```
+   cd data_extraction
+   ```
 
-<!-- 
-## Project Structure
+3. **Install dependencies**:
+   ```
+   pip install -r requirements.txt
+   ```
 
-```
-citilink/
-├── data_extraction/          # LLM document processing
-│   ├── src/
-│   │   ├── processors/       # Document processors
-│   │   ├── models/          # Database models
-│   │   ├── prompts/         # AI prompts
-│   │   └── utils/           # Utilities
-│   ├── scripts/             # Management scripts
-│   └── data/                # Input documents
-│
-└── platform/                # Web platform
-    ├── backend/             # Flask API server
-    ├── frontend/            # React.js application
-    ├── nginx/               # Reverse proxy config
-    ├── mongodb/              # Mongodb database config
-    └── docker-compose.yml   # Docker setup
-``` -->
+4. **Fill in the .env file with your Gemini API key and other variables**:
+   ```
+   # Google AI API Configuration
+   GOOGLE_API_KEY=your_google_api_key_here
+   MODEL_NAME=gemini-2.0-flash
+
+   # MongoDB Configuration
+   MONGO_URI=mongodb://localhost:27018
+   MONGO_DB=citilink_demo
+   MONGO_COLLECTION=atas
+
+   # Processing Settings
+   MAX_RETRIES=3
+   CHUNK_SIZE=20000
+   MAX_DOCUMENT_LENGTH=30000
+   ```
+
+5. **Start processing documents**:
+   Using Porto, and as in the repository there are only 6 documents, one from each municipality, the example from Porto municipality is as follows:
+   ```
+   python -m src.main --municipality Porto --years 2023
+   ```
+
+   However, with more data, you can specify different years to process:
+   ```bash
+   python -m src.main --years 2021 2022 --limit 5 --municipality Porto
+   ```
 
 ## Architecture
 
 ![CitiLink Architecture](docs/diagrams/architecture.png)
+
+The CitiLink architecture combines a data extraction process, powered by an LLM (Gemini 2.0 Flash), a front-end web application, the respective Flask-based API that feeds the frontend, and a restricted back office for human-in-the-loop validation (available on the online demo). Each minute textual content is processed through the LLM, with adequate prompt engineering, to extract metadata, discussion subjects, and voting outcomes, which are then cross-referenced with predefined database collections to ensure consistency. All the data is then stored in a MongoDB Atlas instace, enabling full-text and faceted search. The React-based front end allows users to explore minutes by municipality, topic, or participant, while a Flask API provides access to the processed data.
+
+For demonstration purposes, the system includes 6 meeting minutes from each of the 6 municipalities (Alandroal, Campo Maior, Covilhã, Fundão, Guimarães, and Porto), for users experiment the processnig step. The full dataset is available in the CitiLink Dataset repository ([https://github.com/INESCTEC/citilink-dataset](https://github.com/INESCTEC/citilink-dataset)). The online demo version used the complete dataset.
 
 ## Known Issues
 
@@ -90,16 +132,27 @@ This project is licensed under the ??? License - see the [LICENSE](LICENSE) file
 ## Documentation and Resources
 - **CitiLink Demo Online**: [https://demo.citilink.inesctec.pt/en](https://demo.citilink.inesctec.pt/en)
 - **CitiLink Project**: [https://citilink.inesctec.pt/](https://citilink.inesctec.pt/)
-- **INESCTEC**: https://www.inesctec.pt
-- **Database Models**: See `data_extraction/src/models/` for database schema
 - **Usability Evaluation Guide**: See `docs/platform_usability_evaluation_guide.docx` to see how the usability evaluation was conducted
 
 ## Credits and Acknowledgements
-This work was funded within the scope of the project  CitiLink, with reference [2024.07509.IACDC](https://doi.org/10.54499/2024.07509.IACDC), which is co-funded by Component 5 - Capitalization and Business Innovation, integrated in the Resilience Dimension of the Recovery and Resilience Plan within the scope of the Recovery and Resilience Mechanism (MRR) of the European Union (EU), framed in the Next Generation EU, for the period 2021 - 2026, measure RE-C05-i08.M04 - "To support the launch of a programme of R&D projects geared towards the development and implementation of advanced cybersecurity, artificial intelligence and data science systems in public administration, as well as a scientific training programme", as part of the funding contract signed between the Recovering Portugal Mission Structure (EMRP) and the FCT - Fundação para a Ciência e a Tecnologia, I.P. (Portuguese Foundation for Science and Technology), as intermediary beneficiary.
+The platform was developed by [INESC TEC (Institute for Systems and Computer Engineering, Technology and Science)](https://www.inesctec.pt/pt), specifically by the [NLP&IR](https://nlp.inesctec.pt) research group, part of the [LIAAD (Laboratory of Artificial Intelligence and Decision Support)](https://www.inesctec.pt/pt/centros/LIAAD) center.
+
+### Affiliations
+- [University of Beira Interior (UBI)](https://www.ubi.pt/)
+- [University of Porto (UP)](https://www.up.pt/)
+- [Portuguese Foundation for Science and Technology (FCT)](https://www.fct.pt/)
+- [LabCom](https://www.labcom.ubi.pt/) 
+- [Transdisciplinary Culture, Space and Memory Research Centre (CITCEM)](https://citcem.org/)
+- [Ci2 Smart Cities Research Center](http://www.ci2.ipt.pt/pt/home/)
+
+### Acknowledgements
+- The municipalities of Alandroal, Campo Maior, Covilhã, Fundão, Guimarães, and Porto for providing the meeting minutes publicly available and for their collaboration throughout the project.
+- All team members and contributors who participated in the development, testing, and deployment of the CitiLink platform.
+
+- This work was funded within the scope of the project  CitiLink, with reference [2024.07509.IACDC](https://doi.org/10.54499/2024.07509.IACDC), which is co-funded by Component 5 - Capitalization and Business Innovation, integrated in the Resilience Dimension of the Recovery and Resilience Plan within the scope of the Recovery and Resilience Mechanism (MRR) of the European Union (EU), framed in the Next Generation EU, for the period 2021 - 2026, measure RE-C05-i08.M04 - "To support the launch of a programme of R&D projects geared towards the development and implementation of advanced cybersecurity, artificial intelligence and data science systems in public administration, as well as a scientific training programme", as part of the funding contract signed between the Recovering Portugal Mission Structure (EMRP) and the FCT - Fundação para a Ciência e a Tecnologia, I.P. (Portuguese Foundation for Science and Technology), as intermediary beneficiary.
 
 ## Contact
 For support, questions, or collaboration inquires: 
 - **CitiLink Email**: citilink@inesctec.pt
-
 ---
 
