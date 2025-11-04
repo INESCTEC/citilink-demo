@@ -1,8 +1,22 @@
 ![CitiLink Logo](./docs/assets/header.png)
 
 # CitiLink - Enhancing Municipal Transparency and Citizen Engagement through Searchable Meeting Minutes
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Python 3.10](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Flask](https://img.shields.io/badge/Backend-Flask-black.svg?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![React](https://img.shields.io/badge/Frontend-React-61DAFB.svg?logo=react&logoColor=white)](https://react.dev/)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248.svg?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![TailwindCSS](https://img.shields.io/badge/UI-TailwindCSS-38B2AC.svg?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![LLM: Gemini 2.0 Flash](https://img.shields.io/badge/LLM-Gemini%202.0%20Flash-4285F4.svg?logoColor=white)](https://deepmind.google/technologies/gemini/)
 
-### [Try out the live demo](https://demo.citilink.inesctec.pt/en)
+Official repository for the submission of the demo paper "**CitiLink: Enhancing Municipal Transparency and Citizen Engagement through Searchable Meeting Minutes**", for ECIR 2026.
+
+This repository contains the code and instructions to run the CitiLink platform demo and the data extraction process.
+   
+> **Try CitiLink Now** -- [**https://demo.citilink.inesctec.pt/en**](https://demo.citilink.inesctec.pt/en)
+
+---
 
 CitiLink is a platform that presents structured and searchable data extracted from municipal meeting minutes. It aims to demonstrate how Natural Language Processing (NLP) and Information Retrieval (IR) can make local government documentation more accessible and transparent. 
 
@@ -16,7 +30,7 @@ The demonstration is available online at [https://demo.citilink.inesctec.pt/en](
 
 ## Project Status
 
-This project is currently in development.
+The project is under active development, with a fully functional demo already available.
 
 ## Technology Stack
 
@@ -25,13 +39,20 @@ This project is currently in development.
 - Database: MongoDB Atlas
 - Other tools: Docker, Vite
 
+## Architecture
+
+![CitiLink Architecture](docs/diagrams/architecture.png)
+
+The CitiLink architecture combines a data extraction process, powered by an LLM (Gemini 2.0 Flash), a front-end web application, the respective Flask-based API that feeds the front-end, and a restricted back office for human-in-the-loop validation (available on the online demo). Each minute textual content is processed through the LLM, with adequate prompt engineering, to extract metadata, discussion subjects, and voting outcomes, which are then cross-referenced with predefined database collections to ensure consistency. All the data is then stored in a MongoDB Atlas instance, enabling full-text and faceted search. The React-based front end allows users to explore minutes by municipality, topic, or participant, while a Flask API provides access to the processed data.
+
+### Dataset
+> **Important Note**: For demonstration purposes, this repository includes 6 meeting minutes from each of the 6 municipalities (Alandroal, Campo Maior, Covilhã, Fundão, Guimarães, and Porto), so users can experiment with the processing step. The complete dataset, present in the [**online demo**](https://demo.citilink.inesctec.pt/en), with 120 minutes is available in the CitiLink Dataset repository ([https://github.com/INESCTEC/citilink-dataset](https://github.com/INESCTEC/citilink-dataset)).
+
 ## Dependencies
-Listed on `data_extraction/requirements.txt` and `platform/backend/requirements.txt`
+Listed on `data_extraction/requirements.txt` and `platform/backend/requirements.txt`   
 
-
-## Installation
-
-### Platform - Docker Setup (Recommended)
+## Installation and Usage
+### Platform - Using Docker (Recommended)
 
 1. **Clone the repository**
    ```bash
@@ -44,48 +65,23 @@ Listed on `data_extraction/requirements.txt` and `platform/backend/requirements.
    cd platform
    docker-compose up -d
    ```
-
-## Usage
-### Project Structure
-
-```
-citilink/
-├── data_extraction/          # Minute document processing
-│   ├── src/
-│   │   ├── processors/       # Document processors
-│   │   ├── models/           # Database schemas
-│   │   ├── prompts/          # Gemini Prompts
-│   │   └── utils/            # Utilities
-│   ├── scripts/              # Management scripts
-│   └── data/                 # Input documents
-│
-└── platform/                 # Web platform
-    ├── backend/              # Flask API server
-    ├── frontend/             # React.js application
-    ├── nginx/                # Reverse proxy config
-    ├── mongodb/              # Mongodb database config
-    └── docker-compose.yml    # Docker setup
-```
-
-### Platform
-If not, run the Docker setup above, then access the following URLs in your web browser:
-- Web Interface: http://localhost
-- API Documentation: http://localhost:5059/api/docs
+3. **Access the following URLs in your web browser**
+   - Web Interface: http://localhost
+   - API Documentation: http://localhost:5059/api/docs
    
-### Data Extraction
-1. **If not, run the Docker setup above**
+### Data Extraction (Manual Setup)
 
-2. **Enter the data_extraction directory**:
+1. **Enter the data_extraction directory**:
    ```
    cd data_extraction
    ```
 
-3. **Install dependencies**:
+2. **Install dependencies**:
    ```
    pip install -r requirements.txt
    ```
 
-4. **Fill in the .env file with your Gemini API key and other variables**:
+3. **Fill in the .env file with your Gemini API key and other variables**:
    ```
    # Google AI API Configuration
    GOOGLE_API_KEY=your_google_api_key_here
@@ -102,24 +98,38 @@ If not, run the Docker setup above, then access the following URLs in your web b
    MAX_DOCUMENT_LENGTH=30000
    ```
 
-5. **Start processing documents**:
-   Using Porto, and as in the repository there are only 6 documents, one from each municipality, the example from Porto municipality is as follows:
-   ```
+4. **Start processing documents**:
+  The repository includes one document from each municipality (six in total).
+  For example, to process the document from the Porto municipality, run:
+   ```bash
    python -m src.main --municipality Porto --years 2023
    ```
 
-   However, with more data, you can specify different years to process:
+   If you have additional data, you can specify multiple years or limit the number of documents to process:
    ```bash
    python -m src.main --years 2021 2022 --limit 5 --municipality Porto
    ```
 
-## Architecture
+### Project Structure
 
-![CitiLink Architecture](docs/diagrams/architecture.png)
-
-The CitiLink architecture combines a data extraction process, powered by an LLM (Gemini 2.0 Flash), a front-end web application, the respective Flask-based API that feeds the frontend, and a restricted back office for human-in-the-loop validation (available on the online demo). Each minute textual content is processed through the LLM, with adequate prompt engineering, to extract metadata, discussion subjects, and voting outcomes, which are then cross-referenced with predefined database collections to ensure consistency. All the data is then stored in a MongoDB Atlas instace, enabling full-text and faceted search. The React-based front end allows users to explore minutes by municipality, topic, or participant, while a Flask API provides access to the processed data.
-
-For demonstration purposes, the system includes 6 meeting minutes from each of the 6 municipalities (Alandroal, Campo Maior, Covilhã, Fundão, Guimarães, and Porto), for users experiment the processnig step. The full dataset is available in the CitiLink Dataset repository ([https://github.com/INESCTEC/citilink-dataset](https://github.com/INESCTEC/citilink-dataset)). The online demo version used the complete dataset.
+```
+citilink/
+├── data_extraction/          # Municipal minute document processing
+│   ├── src/
+│   │   ├── processors/       # Document processors
+│   │   ├── models/           # Database schemas
+│   │   ├── prompts/          # Gemini Prompts
+│   │   └── utils/            # Utilities
+│   ├── scripts/              # Management scripts
+│   └── data/                 # Input documents
+│
+└── platform/                 # Web platform
+    ├── backend/              # Flask API server
+    ├── frontend/             # React application
+    ├── nginx/                # Reverse proxy config
+    ├── mongodb/              # MongoDB database config
+    └── docker-compose.yml    # Docker compose setup
+```
 
 ## Known Issues
 
@@ -127,7 +137,7 @@ For demonstration purposes, the system includes 6 meeting minutes from each of t
 
 ## License
 
-This project is licensed under the ??? License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the CC-BY-NC-ND-4.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Documentation and Resources
 - **CitiLink Demo Online**: [https://demo.citilink.inesctec.pt/en](https://demo.citilink.inesctec.pt/en)
@@ -135,7 +145,8 @@ This project is licensed under the ??? License - see the [LICENSE](LICENSE) file
 - **Usability Evaluation Guide**: See `docs/platform_usability_evaluation_guide.docx` to see how the usability evaluation was conducted
 
 ## Credits and Acknowledgements
-The platform was developed by [INESC TEC (Institute for Systems and Computer Engineering, Technology and Science)](https://www.inesctec.pt/pt), specifically by the [NLP&IR](https://nlp.inesctec.pt) research group, part of the [LIAAD (Laboratory of Artificial Intelligence and Decision Support)](https://www.inesctec.pt/pt/centros/LIAAD) center.
+The platform was developed by [INESC TEC (Institute for Systems and Computer Engineering, Technology and Science)](https://www.inesctec.pt/pt).
+<!-- specifically by the [NLP&IR](https://nlp.inesctec.pt) research group, part of the [LIAAD (Laboratory of Artificial Intelligence and Decision Support)](https://www.inesctec.pt/pt/centros/LIAAD) center. -->
 
 ### Affiliations
 - [University of Beira Interior (UBI)](https://www.ubi.pt/)
@@ -154,5 +165,3 @@ The platform was developed by [INESC TEC (Institute for Systems and Computer Eng
 ## Contact
 For support, questions, or collaboration inquires: 
 - **CitiLink Email**: citilink@inesctec.pt
----
-

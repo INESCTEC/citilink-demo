@@ -6,6 +6,7 @@ from flasgger import Swagger
 from mongoengine import connect, disconnect, get_connection
 import redis
 import os
+import time
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 from config import Config
@@ -29,7 +30,7 @@ def create_app(config_class=Config):
     
     # CORS
     CORS(app,
-         resources={r"/*": {"origins": ["http://localhost:5173", "http://20.199.8.215", "https://citilink.inesctec.pt", "http://citilink.inesctec.pt", "https://demo.citilink.inesctec.pt", "https://app.citilink.inesctec.pt", "http://app.citilink.inesctec.pt", "https://api.citilink.inesctec.pt", "http://api.citilink.inesctec.pt"]}},
+         resources={r"/*": {"origins": ["http://localhost:5173", "http://localhost:80", "http://localhost", "http://20.199.8.215", "https://citilink.inesctec.pt", "http://citilink.inesctec.pt", "https://demo.citilink.inesctec.pt", "https://app.citilink.inesctec.pt", "http://app.citilink.inesctec.pt", "https://api.citilink.inesctec.pt", "http://api.citilink.inesctec.pt"]}},
          supports_credentials=True,
          allow_headers=["Content-Type", "Authorization"])
     
@@ -108,12 +109,8 @@ def create_app(config_class=Config):
     
     Swagger(app, config=swagger_config, template=swagger_template)
     
-    # Redis
-    app.redis_client = redis.Redis(
-        host=app.config["REDIS_HOST"],
-        port=app.config["REDIS_PORT"],
-        decode_responses=True
-    )
+    logger.info("Waiting for MongoDB to be ready...")
+    time.sleep(10)
     
     # db - mongo
     connect(

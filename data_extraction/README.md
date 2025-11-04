@@ -13,7 +13,7 @@
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd citilink_nlp/src/data_generation_program
+   cd citilink-demo/data_extraction
    ```
 
 2. **Create and activate a virtual environment**
