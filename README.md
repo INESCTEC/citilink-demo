@@ -181,7 +181,7 @@ citilink-demo/
 
 ## License
 
-This project is licensed under the CC-BY-NC-ND-4.0 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the AGPLv3 dual licence. See the [LICENSE](LICENSE) file for details.
 
 
 ## Acknowledgements
